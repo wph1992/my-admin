@@ -5,7 +5,7 @@ defineProps<{ msg: string }>()
 
 const count = ref(0)
 const add = () => {
-	const a = '2'
+	const a = '3'
 	console.log(a)
 }
 </script>
