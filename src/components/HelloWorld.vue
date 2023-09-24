@@ -4,9 +4,7 @@ import { ref } from 'vue'
 defineProps<{ msg: string }>()
 
 const count = ref(0)
-const add = () => {
-	count.value++
-}
+const add = () => {}
 </script>
 
 <template>
@@ -30,11 +28,14 @@ const add = () => {
 		<a href="https://github.com/vuejs/language-tools" target="_blank">Volar</a>
 		in your IDE for a better DX
 	</p>
-	<p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+	<p class="read-the-docs">
+		Click on the Vite and Vue logos to learn more<span class="test"></span>
+	</p>
 </template>
 
 <style scoped>
 .read-the-docs {
 	color: #888;
+	font-size: 20px;
 }
 </style>

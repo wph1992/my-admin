@@ -71,6 +71,7 @@ module.exports = {
         'vue/multi-word-commponent-names': 0,
         'vue/attribute-hyphenation': 0,
         'vue/v-on-event-hyphenation': 0,
-        'no-console': 0
+        'no-console': 0,
+        'indent': 0
     }
 }
